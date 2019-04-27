@@ -1,9 +1,9 @@
 {
-  "name": "linkorb/flex-sessuib-bundle",
+  "name": "linkorb/flex-session-bundle",
   "type": "symfony-bundle",
   "description": "This Bundle provides integration with flex session for symfony",
   "keywords": [
-    "session"
+    "session", "flex-session"
   ],
   "license": "MIT",
   "autoload": {
@@ -12,10 +12,10 @@
     }
   },
   "require": {
-    "php": "^7.0",
+    "php": "^7.1",
     "symfony/config": "^4.0",
     "symfony/dependency-injection": "^4.0",
     "symfony/http-kernel": "^4.0",
-    "linkorb/flex-session": "*"
+    "linkorb/flex-session": "^0.1.0"
   }
 }
